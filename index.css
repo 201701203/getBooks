@@ -1,0 +1,52 @@
+body,html
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.bg
+{
+	background-image: url(img/3.jpg);
+	height: 100%; 
+	background-size: cover;
+	background-position: center;
+}
+li
+{
+	list-style-type: none;
+	text-decoration: none;
+	padding: 2px 10px;
+	display: inline-block;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin: 0;
+	color: white;
+}
+#hea
+{
+	font-size: 35px;
+	font-family: arial;
+	text-align: right;
+	background-color: rgb(0,0,0,0.3);
+	border: 5px solid white;
+}
+
+#home
+{
+	float: left;
+	color: red;
+	padding: 2px;
+}	
+
+#box
+{
+	height: 100%;
+	width: 100%;
+	font-size: 50px;
+	color: black;
+}
